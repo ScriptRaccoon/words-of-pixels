@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.scene {
+	height: 100vh;
+	background-color: black;
+	position: relative;
+	overflow: hidden;
+}
+
+.pixel {
+	position: absolute;
+	width: min(0.5rem, 0.75vw);
+	aspect-ratio: 1;
+	border-radius: 50%;
+	background-color: white;
+	transition: transform 4s cubic-bezier(0.41, 0, 0.17, 1);
+}
+
+.visually-hidden {
+	width: 1;
+	height: 1;
+	position: absolute;
+	overflow: hidden;
+	left: -10000px;
+}
