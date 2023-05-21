@@ -7,6 +7,7 @@ export const IMAGES = [
 	"html.png",
 	"svelte.png",
 	"accessibility.png",
+	"youtube.png",
 ];
 
 export const LIGHTNESS_THRESHOLD = 200;
