@@ -4,9 +4,13 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	background-color: black;
+}
+
 .scene {
 	height: 100vh;
-	background-color: black;
 	position: relative;
 	overflow: hidden;
 }
@@ -26,4 +30,12 @@
 	position: absolute;
 	overflow: hidden;
 	left: -10000px;
+}
+
+a {
+	position: absolute;
+	bottom: 0.5rem;
+	right: 0.5rem;
+	color: #aaa;
+	text-underline-offset: 0.1rem;
 }
